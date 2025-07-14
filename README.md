@@ -42,6 +42,11 @@ The core of the attack is implemented entirely within a Docker container. Additi
    docker build -t bitm .
    docker run -p 8080:8080 bitm
       ```
+1. Visit the victim's target webpage inside the container:
+   ```bash
+   /opt/web URL
+      ```
+   
 ## Results
 
 ![Usage Screenshot](imgs/result.png)
